@@ -11,12 +11,10 @@ const config: QuartzConfig = {
     pageTitle: "🪴 Wm",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: null,
-    },
+    analytics: null,
     locale: "de-DE",
     baseUrl: "github.com/merlinuwe/quartz/me",
-    /*ignorePatterns: ["!(Meta/PublicMedia)**/!(*.md)", "!(*.md)", "BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"],*/
+    /* ignorePatterns: ["!(Meta/PublicMedia)**/!(*.md)", "!(*.md)", "BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"], */
     ignorePatterns: ["BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
