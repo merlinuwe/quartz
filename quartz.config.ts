@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "de-DE",
-    baseUrl: "github.com/merlinuwe/quartz/me",
+    baseUrl: "merlinuwe.github.io/quartz",
     /* ignorePatterns: ["!(Meta/PublicMedia)**/!(*.md)", "!(*.md)", "BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"], */
     ignorePatterns: ["BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"],
     defaultDateType: "modified",
