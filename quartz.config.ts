@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     locale: "de-DE",
     baseUrl: "merlinuwe.github.io/quartz",
     /* ignorePatterns: ["!(Meta/PublicMedia)**/!(*.md)", "!(*.md)", "BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"], */
-    ignorePatterns: ["BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
