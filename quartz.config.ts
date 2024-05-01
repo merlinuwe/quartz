@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: null,
     },
     locale: "de-DE",
-    baseUrl: "merlinuwe.github.io/quartz",
+    baseUrl: "merlinuwe.github.io/quartz/me",
     ignorePatterns: ["!(Meta/PublicMedia)**/!(*.md)", "!(*.md)", "BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
