@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Wm",
+    pageTitle: "🪴 Quartz 4.0",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: null,
+      provider: "plausible",
     },
-    locale: "de-DE",
-    baseUrl: "merlinuwe.github.io/quartz",
-    ignorePatterns: ["!(Meta/PublicMedia)**/!(*.md)", "!(*.md)", "BBZ", "IT Grundlagen", "Meta", "**/Privat", "private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    locale: "en-US",
+    baseUrl: "quartz.jzhao.xyz",
+    ignorePatterns: ["private", "templates", ".obsidian"],
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -75,7 +75,6 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.ExplicitPublish(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
